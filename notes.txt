@@ -1,0 +1,11 @@
+#PWM setup
+update universal io device tree overlays
+/opt/source/beaglebone-universal-io
+
+echo cape-universaln > /sys/device/bone_capemgr.*/slots
+
+This will creates files in /sys/devices/ocp.* folder
+
+
+
+#Analog pin setup
